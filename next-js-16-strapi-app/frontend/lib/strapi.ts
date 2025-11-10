@@ -44,3 +44,24 @@ export async function getStrapiData(url: string) {
         throw error;
     }
 }
+
+export async function registerUserService(userData: object) {
+    const url = `${STRAPI_BASE_URL}/api/auth/local/register`;
+
+    try {
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(userData),
+        })
+
+        const data = await response.json();
+        console.log(data)
+        return data;
+    } catch (error) {
+        console.error('Error registering user:', error);
+        throw error;
+    }
+}
