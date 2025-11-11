@@ -305,3 +305,65 @@ https://react.dev/link/hydration-mismatch
 [01:09:04.042] Server  LOG      ✓ Compiled in 481ms
 [01:09:22.221] Server  LOG        Reload env: .env
 [01:41:45.862] Server  LOG      ✓ Compiled in 2.1s
+[01:48:09.770] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:48:10.378] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary name="signin/" loading={null}>
+              <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+                <RedirectBoundary>
+                  <RedirectErrorBoundary router={{...}}>
+                    <InnerLayoutRouter url="/signin" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                      <SegmentViewNode type="page" pagePath="(auth)/sig...">
+                        <SegmentTrieNode>
+                        <SingInRoute>
+                          <SigninForm>
+                            <div className="w-full max...">
+                              <form
+-                               data-np-autofill-form-type="login"
+-                               data-np-checked="1"
+                              >
+                                <Card>
+                                  <div data-slot="card" className="bg-card te...">
+                                    <CardHeader>
+                                    <CardContent className="space-y-4">
+                                      <div data-slot="card-content" className="px-6 space...">
+                                        <div className="space-y-2">
+                                          <Label>
+                                          <Input id="identifier" name="identifier" type="text" ...>
+                                            <input
+                                              type="text"
+                                              data-slot="input"
+                                              className="file:text-foreground placeholder:text-muted-foreground select..."
+                                              id="identifier"
+                                              name="identifier"
+                                              placeholder="username or email"
+-                                             data-np-autofill-field-type="username"
+-                                             data-np-uid="6f895282-1285-493a-b5b9-6084352697f4"
+                                            >
+-                                         <nordpass-icon
+-                                           data-np-uid="6f895282-1285-493a-b5b9-6084352697f4"
+-                                           tabindex="-1"
+-                                           style={{all:"initial"}}
+-                                         >
+                                        ...
+                                    ...
+                                ...
+                      ...
+                    ...
+          ...
+
