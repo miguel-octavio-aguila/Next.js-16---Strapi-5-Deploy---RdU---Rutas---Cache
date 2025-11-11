@@ -28,7 +28,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$cach
 ;
 ;
 ;
-const STRAPI_BASE_URL = 'http://127.0.0.1:1337';
+const STRAPI_BASE_URL = process.env.STRAPI_BASE_URL || 'http://127.0.0.1:1337';
 const QUERY_HOME_PAGE = {
     populate: {
         sections: {
