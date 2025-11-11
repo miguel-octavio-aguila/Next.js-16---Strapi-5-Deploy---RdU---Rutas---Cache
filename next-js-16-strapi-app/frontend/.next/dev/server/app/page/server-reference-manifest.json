@@ -1,0 +1,20 @@
+{
+  "node": {
+    "80e90630667af6066b4c7c582e8259af7d3869800e": {
+      "workers": {
+        "app/page": {
+          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/strapi.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "$$RSC_SERVER_CACHE_0",
+          "filename": "lib/strapi.ts"
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "exportedName": "$$RSC_SERVER_CACHE_0",
+      "filename": "lib/strapi.ts"
+    }
+  },
+  "edge": {}
+}

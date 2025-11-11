@@ -1,0 +1,303 @@
+[00:00:07.535] Server  LOG      ✓ Ready in 5.6s
+[00:01:04.921] Server  LOG      ○ Compiling /signup ...
+[00:01:19.194] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:53.986] Server  LOG      ✓ Compiled in 6.9s
+[00:12:08.512] Server  LOG      ✓ Compiled in 360ms
+[00:14:00.310] Server  LOG      ✓ Compiled in 69ms
+[00:14:02.792] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:02.981] Browser ERROR   ./proxy.ts
+Proxy is missing expected function export name
+This function is what Next.js runs for every request handled by this proxy (previously called middleware).
+
+Why this happens:
+- You are migrating from `middleware` to `proxy`, but haven't updated the exported function.
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "proxy" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:14:02.982] Browser ERROR   ./proxy.ts
+Proxy is missing expected function export name
+This function is what Next.js runs for every request handled by this proxy (previously called middleware).
+
+Why this happens:
+- You are migrating from `middleware` to `proxy`, but haven't updated the exported function.
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "proxy" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:14:05.979] Server  LOG      ○ Compiling /_error ...
+[00:14:06.992] Browser ERROR   ./proxy.ts
+Proxy is missing expected function export name
+This function is what Next.js runs for every request handled by this proxy (previously called middleware).
+
+Why this happens:
+- You are migrating from `middleware` to `proxy`, but haven't updated the exported function.
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "proxy" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:14:07.380] Browser ERROR   ./proxy.ts
+Proxy is missing expected function export name
+This function is what Next.js runs for every request handled by this proxy (previously called middleware).
+
+Why this happens:
+- You are migrating from `middleware` to `proxy`, but haven't updated the exported function.
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "proxy" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:14:10.570] Browser ERROR   ./proxy.ts
+Proxy is missing expected function export name
+This function is what Next.js runs for every request handled by this proxy (previously called middleware).
+
+Why this happens:
+- You are migrating from `middleware` to `proxy`, but haven't updated the exported function.
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "proxy" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:14:10.607] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:10.698] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:10.786] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:10.933] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:11.084] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:11.249] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:11.441] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:11.687] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:11.903] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:12.083] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:12.231] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:12.526] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:13.043] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:13.116] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:16.179] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:16.190] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:16.196] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:16.202] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:16.210] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:16.492] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:16.519] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:16.569] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:16.592] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:16.599] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:16.699] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:16.719] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:16.736] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:16.794] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:16.892] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:16.911] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:16.929] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:16.977] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:17.051] Browser ERROR   uncaughtError: Error: ./proxy.ts
+Proxy is missing expected function export name
+This function is what Next.js runs for every request handled by this proxy (previously called middleware).
+
+Why this happens:
+- You are migrating from `middleware` to `proxy`, but haven't updated the exported function.
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "proxy" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+
+
+[00:14:17.094] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:14:18.426] Browser ERROR   ./proxy.ts
+Proxy is missing expected function export name
+This function is what Next.js runs for every request handled by this proxy (previously called middleware).
+
+Why this happens:
+- You are migrating from `middleware` to `proxy`, but haven't updated the exported function.
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "proxy" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:14:18.557] Browser ERROR   ./proxy.ts
+Proxy is missing expected function export name
+This function is what Next.js runs for every request handled by this proxy (previously called middleware).
+
+Why this happens:
+- You are migrating from `middleware` to `proxy`, but haven't updated the exported function.
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "proxy" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:14:18.601] Server  ERROR    ⨯ Error: The Proxy file "/proxy" must export a function named `proxy` or a default function.
+[00:22:58.338] Server  LOG      ✓ Compiled in 119ms
+[00:23:02.195] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:03.241] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/signup" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="(auth)/sig...">
+            <SegmentTrieNode>
+            <SignUpRoute>
+              <SignupForm>
+                <div className="w-full max...">
+                  <form action={function bound dispatchActionState}>
+                    <Card>
+                      <div data-slot="card" className="bg-card te...">
+                        <CardHeader>
+                        <CardContent className="space-y-4">
+                          <div data-slot="card-content" className="px-6 space...">
+                            <div className="space-y-2">
+                              <Label>
+                              <Input id="username" name="username" type="text" placeholder="username" defaultValue="">
+                                <input
+                                  type="text"
+                                  data-slot="input"
+                                  className="file:text-foreground placeholder:text-muted-foreground selection:bg-prima..."
+                                  id="username"
+                                  name="username"
+                                  placeholder="username"
+                                  defaultValue=""
+-                                 data-np-mark="1"
+                                >
+                              ...
+                            <div className="space-y-2">
+                              <Label>
+                              <Input id="email" name="email" type="text" placeholder="name@examp..." defaultValue="">
+                                <input
+                                  type="text"
+                                  data-slot="input"
+                                  className="file:text-foreground placeholder:text-muted-foreground selection:bg-prima..."
+                                  id="email"
+                                  name="email"
+                                  placeholder="name@example.com"
+                                  defaultValue=""
+-                                 data-np-mark="1"
+                                >
+                              ...
+                            <div className="space-y-2">
+                              <Label>
+                              <Input id="password" name="password" type="password" placeholder="password" defaultValue="">
+                                <input
+                                  type="password"
+                                  data-slot="input"
+                                  className="file:text-foreground placeholder:text-muted-foreground selection:bg-prima..."
+                                  id="password"
+                                  name="password"
+                                  placeholder="password"
+                                  defaultValue=""
+-                                 data-np-mark="1"
+                                >
+                              ...
+                        ...
+                    ...
+          ...
+        ...
+
+[00:25:31.669] Server  LOG      ✓ Compiled in 591ms
+[00:31:28.375] Server  LOG      ✓ Compiled in 73ms
+[00:32:07.910] Server  LOG      ✓ Compiled in 39ms
+[00:36:09.757] Server  LOG      ✓ Compiled in 7ms
+[00:38:01.271] Server  LOG      ✓ Compiled in 62ms
+[00:38:51.600] Server  LOG     {}
+[00:38:51.787] Server  LOG     {}
+[00:38:54.707] Server  LOG     {}
+[00:38:54.840] Server  LOG     {}
+[00:40:04.163] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:05.634] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary name="signin/" loading={null}>
+              <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+                <RedirectBoundary>
+                  <RedirectErrorBoundary router={{...}}>
+                    <InnerLayoutRouter url="/signin" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                      <SegmentViewNode type="page" pagePath="(auth)/sig...">
+                        <SegmentTrieNode>
+                        <SingInRoute>
+                          <SigninForm>
+                            <div className="w-full max...">
+                              <form
+-                               data-np-autofill-form-type="login"
+-                               data-np-checked="1"
+                              >
+                                <Card>
+                                  <div data-slot="card" className="bg-card te...">
+                                    <CardHeader>
+                                    <CardContent className="space-y-4">
+                                      <div data-slot="card-content" className="px-6 space...">
+                                        <div className="space-y-2">
+                                          <Label>
+                                          <Input id="identifier" name="identifier" type="text" ...>
+                                            <input
+                                              type="text"
+                                              data-slot="input"
+                                              className="file:text-foreground placeholder:text-muted-foreground select..."
+                                              id="identifier"
+                                              name="identifier"
+                                              placeholder="username or email"
+-                                             data-np-autofill-field-type="username"
+-                                             data-np-uid="0b03120f-1ea3-4249-98db-9ac38c418c27"
+                                            >
+-                                         <nordpass-icon
+-                                           data-np-uid="0b03120f-1ea3-4249-98db-9ac38c418c27"
+-                                           tabindex="-1"
+-                                           style={{all:"initial"}}
+-                                         >
+                                        ...
+                                    ...
+                                ...
+                      ...
+                    ...
+          ...
+

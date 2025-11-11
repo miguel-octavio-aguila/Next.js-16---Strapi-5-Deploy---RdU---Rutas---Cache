@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Miguel%20Aguila/Documents/Cursos/Programaci%C3%B3n/Next.js%2016%20%2B%20Strapi%205%20Deploy%20%2B%20RdU%20%2B%20Rutas%20%2B%20Cache/next-js-16-strapi-app/frontend/node_modules/.pnpm/next%4016.0.1_%40babel%2Bcore%407.2_048eab391ea2e03c70ee64ac0670005b/node_modules/next/error.js"],"sourcesContent":["module.exports = require('./dist/pages/_error')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0],"debugId":null}}]
+}

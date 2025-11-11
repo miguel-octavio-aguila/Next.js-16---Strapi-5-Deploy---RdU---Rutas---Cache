@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Miguel%20Aguila/Documents/Cursos/Programaci%C3%B3n/Next.js%2016%20%2B%20Strapi%205%20Deploy%20%2B%20RdU%20%2B%20Rutas%20%2B%20Cache/next-js-16-strapi-app/frontend/app/dashboard/page.tsx"],"sourcesContent":["export default function DashboardRoute() {\r\n    return (\r\n        <div className=\"flex flex-col items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900\">\r\n            <h1>Dashboard</h1>\r\n        </div>\r\n    )\r\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBACI,8OAAC;QAAI,WAAU;kBACX,cAAA,8OAAC;sBAAG;;;;;;;;;;;AAGhB","debugId":null}}]
+}
