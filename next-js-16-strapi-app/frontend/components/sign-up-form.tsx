@@ -49,7 +49,6 @@ const INITIAL_STATE: FormState = {
 export function SignupForm() {
     const [formState, formAction] = useActionState(actions.auth.registerUserAction, INITIAL_STATE)
 
-    console.log(formState)
     return (
         <div className={styles.container}>
             <form action={formAction}>
@@ -77,7 +76,7 @@ export function SignupForm() {
                         <Input
                             id="email"
                             name="email"
-                            type="email"
+                            type="text"
                             placeholder="name@example.com"
                             defaultValue={formState.data?.email ?? ''}
                         />
