@@ -42,15 +42,23 @@ export const getHomePage = cache(async () => {
 
 export async function getStrapiData(url: string) {
     try {
-        const response = await fetch(`${STRAPI_BASE_URL}${url}`);
+        const fullUrl = `${STRAPI_BASE_URL}${url}`;
+        console.log('Fetching:', fullUrl);
+        
+        const response = await fetch(fullUrl, {
+            next: { revalidate: 60 } // Cache por 60 segundos
+        });
+        
         if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
+            throw new Error(`HTTP error! Status: ${response.status}`);
         }
+        
         const data = await response.json();
         return data;
     } catch (error) {
         console.error("Error fetching data from Strapi:", error);
-        throw error;
+        // Retorna un objeto vacío en lugar de lanzar error
+        return { data: null };
     }
 }
 
