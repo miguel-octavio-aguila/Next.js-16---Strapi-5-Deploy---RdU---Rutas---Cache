@@ -50,6 +50,7 @@ module.exports = mod;
 "[project]/lib/strapi.ts [middleware] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// frontend/lib/strapi.ts
 __turbopack_context__.s([
     "STRAPI_BASE_URL",
     ()=>STRAPI_BASE_URL,
@@ -61,20 +62,23 @@ __turbopack_context__.s([
     ()=>registerUserService
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$qs$2f$lib$2f$index$2e$js__$5b$middleware$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/qs/lib/index.js [middleware] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$cache$2e$js__$5b$middleware$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/cache.js [middleware] (ecmascript)");
+// 1. ELIMINA las importaciones de 'next/cache'
+// import { cacheLife } from 'next/cache';
+// 2. AÑADE la importación de 'cache' de 'react'
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$middleware$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react.js [middleware] (ecmascript)");
 ;
 ;
-const STRAPI_BASE_URL = process.env.STRAPI_BASE_URL || 'http://127.0.0.1:1337';
+const STRAPI_BASE_URL = process.env.STRAPI_BASE_URL || "http://127.0.0.1:1337";
 const QUERY_HOME_PAGE = {
     populate: {
         sections: {
             on: {
-                'layout.hero-section': {
+                "layout.hero-section": {
                     populate: {
                         image: {
                             fields: [
-                                'url',
-                                'alternativeText'
+                                "url",
+                                "alternativeText"
                             ]
                         },
                         link: {
@@ -86,15 +90,14 @@ const QUERY_HOME_PAGE = {
         }
     }
 };
-async function getHomePage() {
-    'use cache';
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$cache$2e$js__$5b$middleware$5d$__$28$ecmascript$29$__["cacheLife"])({
-        expire: 60
-    }); // 1 minute
+const getHomePage = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$middleware$5d$__$28$ecmascript$29$__["cache"])(async ()=>{
+    // 4. ELIMINA las directivas experimentales
+    // 'use cache'
+    // cacheLife({ expire: 60}); // 1 minute
     const query = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$qs$2f$lib$2f$index$2e$js__$5b$middleware$5d$__$28$ecmascript$29$__["default"].stringify(QUERY_HOME_PAGE);
     const response = await getStrapiData(`/api/home-page?${query}`);
     return response?.data;
-}
+});
 async function getStrapiData(url) {
     try {
         const response = await fetch(`${STRAPI_BASE_URL}${url}`);
@@ -104,7 +107,7 @@ async function getStrapiData(url) {
         const data = await response.json();
         return data;
     } catch (error) {
-        console.error('Error fetching data from Strapi:', error);
+        console.error("Error fetching data from Strapi:", error);
         throw error;
     }
 }
@@ -112,9 +115,9 @@ async function registerUserService(userData) {
     const url = `${STRAPI_BASE_URL}/api/auth/local/register`;
     try {
         const response = await fetch(url, {
-            method: 'POST',
+            method: "POST",
             headers: {
-                'Content-Type': 'application/json'
+                "Content-Type": "application/json"
             },
             body: JSON.stringify(userData)
         });
@@ -122,7 +125,7 @@ async function registerUserService(userData) {
         console.log(data);
         return data;
     } catch (error) {
-        console.error('Error registering user:', error);
+        console.error("Error registering user:", error);
         throw error;
     }
 }
